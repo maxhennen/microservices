@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b599efde-03a8-4ab5-a192-9cff090b4e0d" name="Default" comment="microservices" />
+    <list default="true" id="b599efde-03a8-4ab5-a192-9cff090b4e0d" name="Default" comment="microservices">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kweetservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kweetservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kweetservice/target/kweetservice-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/websocket/target/" />
@@ -46,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
+            <state relative-caret-position="2273">
               <caret line="139" selection-start-line="139" selection-end-line="139" />
             </state>
           </provider>
@@ -56,16 +60,25 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kweetservice/src/main/resources/META-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kweetservice/src/main/resources/META-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/kweetservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="306">
+              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -124,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Details.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Like.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Location.java" />
@@ -175,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/Link.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/KwetterAPI.java" />
         <option value="$PROJECT_DIR$/kweetservice/src/main/resources/META-INF/web.xml" />
+        <option value="$PROJECT_DIR$/kweetservice/pom.xml" />
       </list>
     </option>
   </component>
@@ -190,17 +203,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Kwetter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="kweetservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Kwetter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="kweetservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Kwetter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -243,14 +251,6 @@
               <item name="kweetservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
-              <item name="kweetservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
@@ -303,7 +303,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Users/maxhe/Documents/School/Fontys Semester 6/JEA/Kwetter/src/domain/user/Role.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559566419275" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560344813845" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dynamic.classpath" value="true" />
@@ -323,6 +323,9 @@
       <recent name="dao.user" />
       <recent name="service" />
       <recent name="domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\microservices\Kwetter\kweetservice\src\main\resources\META-INF" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -652,7 +655,7 @@
       <workItem from="1559485675697" duration="1292000" />
       <workItem from="1559545774435" duration="8454000" />
       <workItem from="1559560631811" duration="4992000" />
-      <workItem from="1560344258611" duration="338000" />
+      <workItem from="1560344258611" duration="695000" />
     </task>
     <servers />
   </component>
@@ -689,7 +692,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400260000" />
+    <option name="totallyTimeSpent" value="400617000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -702,9 +705,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.521197" visible="true" weight="0.3865772" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.521197" visible="true" weight="0.3865772" />
       <window_info id="Structure" order="1" sideWeight="0.37580645" side_tool="true" weight="0.14818764" />
       <window_info id="Persistence" order="2" sideWeight="0.37391305" side_tool="true" weight="0.18389262" />
       <window_info id="Designer" order="3" />
@@ -716,8 +718,8 @@
       <window_info id="JavaEE:App" order="9" sideWeight="0.45054945" side_tool="true" weight="0.2342282" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731544" weight="0.3512748" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.30878186" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731544" visible="true" weight="0.3512748" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30878186" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
@@ -743,7 +745,7 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.25033557" />
       <window_info anchor="right" id="JSF" order="11" />
       <window_info anchor="right" id="Bean Validation" order="12" weight="0.3295302" />
-      <window_info anchor="right" id="Maven" order="13" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="13" visible="true" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +789,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Following.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/EmailSender.java" />
     <entry file="jar://$PROJECT_DIR$/../../../../../../Downloads/payara-5.184/payara5/glassfish/modules/javax.ws.rs-api.jar!/javax/ws/rs/container/ContainerRequestFilter.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -900,24 +901,31 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/rest/UserAPI.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/rest/LikeAPI.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/rest/KwetterAPI.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2273">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kweetservice/src/main/resources/META-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="17">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kweetservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
         </state>
       </provider>
     </entry>
