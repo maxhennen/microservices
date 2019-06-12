@@ -7,9 +7,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b599efde-03a8-4ab5-a192-9cff090b4e0d" name="Default" comment="microservices">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kweetservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kweetservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kweetservice/target/kweetservice-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/userservice/src/main/resources/META-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocket/src/main/resources/META-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/target/authenticationservice-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/target/authenticationservice-1.0-SNAPSHOT/WEB-INF/classes/META-INF/authenticationservice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/target/classes/META-INF/authenticationservice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticationservice/target/test-classes/META-INF/authenticationservice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kweetservice/target/kweetservice-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/kweetservice/target/kweetservice-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kweetservice/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kweetservice/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/target/userservice-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/websocket/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/classes/filter/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/classes/websocket/SessionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/classes/filter/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/classes/websocket/SessionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/accessors-smart-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/asm-5.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-agent-1.7.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/cdi-api-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/el-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.2.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.2.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jakarta.inject-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jakarta.ws.rs-api-2.1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/javaee-api-8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/javax.mail-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/javax.security.enterprise-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jcip-annotations-1.0-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-jdk-http-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-jaxb-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jersey-server-2.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jjwt-api-0.10.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jjwt-impl-0.10.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jjwt-jackson-0.10.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/json-smart-2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/jsr250-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/maven-artifact-3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/maven-plugin-annotations-3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/mockito-all-1.10.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/mockito-core-2.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/nimbus-jose-jwt-5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/objenesis-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/plexus-utils-2.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/primefaces-6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/stormpath-sdk-api-1.0.RC3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/stormpath-sdk-impl-1.0.RC3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/target/websocket-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,11 +158,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kweetservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="204">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="23" column="12" selection-start-line="13" selection-start-column="3" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/websocket/src/main/resources/META-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userservice/src/main/resources/META-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -137,8 +253,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/domain/Details.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Like.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Location.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Following.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Follower.java" />
@@ -188,6 +302,8 @@
         <option value="$PROJECT_DIR$/src/main/java/rest/KwetterAPI.java" />
         <option value="$PROJECT_DIR$/kweetservice/src/main/resources/META-INF/web.xml" />
         <option value="$PROJECT_DIR$/kweetservice/pom.xml" />
+        <option value="$PROJECT_DIR$/userservice/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
       </list>
     </option>
   </component>
@@ -203,11 +319,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kweetservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Kwetter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kweetservice" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Kwetter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -272,13 +388,63 @@
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kwetter" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kwetter" type="b2602c69:ProjectViewProjectNode" />
@@ -303,7 +469,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Users/maxhe/Documents/School/Fontys Semester 6/JEA/Kwetter/src/domain/user/Role.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560344813845" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560344956195" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="dynamic.classpath" value="true" />
@@ -325,6 +491,8 @@
       <recent name="domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\microservices\Kwetter\websocket\src\main\resources\META-INF" />
+      <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\microservices\Kwetter\userservice\src\main\resources\META-INF" />
       <recent name="E:\Users\maxhe\Documents\School\Fontys Semester 6\JEA\microservices\Kwetter\kweetservice\src\main\resources\META-INF" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -655,7 +823,7 @@
       <workItem from="1559485675697" duration="1292000" />
       <workItem from="1559545774435" duration="8454000" />
       <workItem from="1559560631811" duration="4992000" />
-      <workItem from="1560344258611" duration="695000" />
+      <workItem from="1560344258611" duration="977000" />
     </task>
     <servers />
   </component>
@@ -692,7 +860,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400617000" />
+    <option name="totallyTimeSpent" value="400899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,25 +957,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/EmailSender.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../../../../Downloads/payara-5.184/payara5/glassfish/modules/javax.ws.rs-api.jar!/javax/ws/rs/container/ContainerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/containers/jersey-container-servlet-core/2.28/jersey-container-servlet-core-2.28.jar!/org/glassfish/jersey/servlet/ServletContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3162">
-          <caret line="228" selection-start-line="228" selection-end-line="228" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/application.xml" />
     <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
@@ -922,10 +1071,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/src/main/resources/META-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kweetservice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/src/main/resources/META-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="23" column="12" selection-start-line="13" selection-start-column="3" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>

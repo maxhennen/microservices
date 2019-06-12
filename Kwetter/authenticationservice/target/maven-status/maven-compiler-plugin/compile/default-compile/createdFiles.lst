@@ -1,0 +1,14 @@
+rest\JAXRSConfiguration.class
+utils\LoginResponse.class
+service\AuthService.class
+tokenbean\Token.class
+rest\AuthAPI.class
+filter\CORSFilter.class
+domain\Token.class
+utils\JPALoader.class
+dao\AuthDao.class
+tokenbean\JWToken.class
+domain\AuthUser.class
+dao\AuthDaoImpl.class
+utils\AuthenticationUtils.class
+rest\HealthCheck.class
