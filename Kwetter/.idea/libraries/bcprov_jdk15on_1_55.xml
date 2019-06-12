@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="bcprov-jdk15on-1.55">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../Downloads/jar_files (3)/bcprov-jdk15on-1.55.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Downloads/jar_files (3)/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Downloads/jar_files (3)/jackson-annotations-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Downloads/jar_files (3)/jackson-core-2.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Downloads/jar_files (3)/jackson-databind-2.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Downloads/jar_files (3)/java-jwt-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

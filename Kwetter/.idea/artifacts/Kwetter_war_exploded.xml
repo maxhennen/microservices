@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Kwetter:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Kwetter_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Kwetter/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Kwetter" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.auth0:java-jwt:3.3.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
