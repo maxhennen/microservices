@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Kwetter.iml" filepath="$PROJECT_DIR$/Kwetter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authenticationservice/authenticationservice.iml" filepath="$PROJECT_DIR$/authenticationservice/authenticationservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kweetservice/kweetservice.iml" filepath="$PROJECT_DIR$/kweetservice/kweetservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
     </modules>
   </component>
 </project>

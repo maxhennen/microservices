@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Kwetter" />
+        <module name="authenticationservice" />
+        <module name="kweetservice" />
+        <module name="userservice" />
+        <module name="websocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="authenticationservice" target="8" />
+      <module name="kweetservice" target="8" />
       <module name="Kwetter" target="8" />
+      <module name="userservice" target="8" />
+      <module name="websocket" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

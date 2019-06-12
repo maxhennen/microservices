@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/authenticationservice" />
+    <file type="web" url="file://$PROJECT_DIR$/kweetservice" />
+    <file type="web" url="file://$PROJECT_DIR$/userservice" />
+    <file type="web" url="file://$PROJECT_DIR$/websocket" />
     <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
